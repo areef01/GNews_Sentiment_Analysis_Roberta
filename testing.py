@@ -21,5 +21,5 @@ response = client.models.generate_content(
     contents="Write a short upbeat 4-line poem about coding in VS Code."
 )
 
-print("--- Gemini output ---")
+print("--- Gemini output --")
 print(response.text)
